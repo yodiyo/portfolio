@@ -51,10 +51,10 @@ const CONFIG = {
       ],
     },
   },
-  seo: { title: 'Portfolio of Ariful Alam', description: '', imageURL: '' },
+  seo: { title: 'Portfolio of Yorick Brown', description: '', imageURL: '' },
   social: {
-    linkedin: 'ariful-alam',
-    x: 'arif_szn',
+    linkedin: 'theyoricktouch',
+    x: 'kciroy',
     mastodon: 'yodiyo@mastodon.social',
     researchGate: '',
     facebook: '',
@@ -67,95 +67,74 @@ const CONFIG = {
     behance: '',
     medium: 'yodiyo',
     dev: 'yodiyo',
-    stackoverflow: '', // example: '1/jeff-atwood'
+    stackoverflow: '2879440/yorick', // example: '1/jeff-atwood'
     discord: '',
     telegram: '',
-    website: 'https://www.yodiyo.com',
+    website: 'https://www.theyoricktouch.com',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'info@theyoricktouch.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'PHP',
-    'Laravel',
     'JavaScript',
     'React.js',
-    'Node.js',
-    'Nest.js',
     'MySQL',
-    'PostgreSQL',
     'Git',
-    'Docker',
     'PHPUnit',
     'CSS',
-    'Antd',
     'Tailwind',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'YB Digital',
+      position: 'Lead Developer',
+      from: '2007',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://whybedigital.com',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Angry Creative',
+      position: 'Senior Developer',
+      from: 'March 2022',
+      to: 'May 2024',
+      companyLink: 'https://angrycreative.com',
     },
   ],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      name: 'BSc Politics & International Relations',
+      body: 'University of Southampton',
+      year: '1989-1992',
+      link: 'https://www.southampton.ac.uk/study/subjects/politics-international-relations',
     },
   ],
   educations: [
     {
-      institution: 'Institution Name',
+      institution: 'University of Southampton',
       degree: 'Degree',
-      from: '2015',
-      to: '2019',
-    },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      from: '1989',
+      to: '1992',
     },
   ],
   publications: [
     {
-      title: 'Publication Title',
+      title: 'The Best Book of Urban Myths Ever',
       conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-    {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
       journalName: '',
-      authors: 'John Doe, Jane Smith',
+      authors: 'Yorick Brown',
       link: 'https://example.com',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        '500 urban myths and legends you might have heard from a friend of a friend.',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'yodiyo', // to hide blog section, keep it empty
+    source: '', // medium | dev
+    username: '', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
@@ -219,7 +198,7 @@ const CONFIG = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
+  footer: `Made with <a
       class="text-primary" href="https://github.com/yodiyo/gitprofile"
       target="_blank"
       rel="noreferrer"
